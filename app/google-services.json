@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "846742037519",
+    "project_id": "gall-c9e88",
+    "storage_bucket": "gall-c9e88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846742037519:android:153c25a8232d1aea86ef7a",
+        "android_client_info": {
+          "package_name": "com.example.gall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846742037519-0f2sba8l6m0nsscu6orta1b5cgkma4h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwtdirGyT4WfL8diniDi28dFuzx62CR1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846742037519-0f2sba8l6m0nsscu6orta1b5cgkma4h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
