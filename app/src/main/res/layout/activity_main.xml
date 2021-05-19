@@ -11,12 +11,12 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="280dp"
+        android:src="@drawable/add2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_baseline_add_a_photo_24" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -26,11 +26,19 @@
 
         />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal">
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="33dp" />
 
         <Button
             android:id="@+id/upload_btn"
@@ -38,18 +46,29 @@
             android:layout_height="wrap_content"
             android:padding="30dp"
             android:text="Télécharger"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+            app:backgroundTint="#07577a" />
+
+        <Space
+            android:layout_width="70dp"
+            android:layout_height="43dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/showall_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
             android:padding="30dp"
-            android:text="Voir galerie"
-            android:textSize="17sp" />
+            android:text="Galerie"
+            android:textSize="17sp"
+            app:backgroundTint="#07577a" />
+
+        <Space
+            android:layout_width="53dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
 
     </LinearLayout>
-
 
 
 </LinearLayout>

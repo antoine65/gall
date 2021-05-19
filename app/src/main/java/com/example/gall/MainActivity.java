@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                         root.child(storageId).setValue(storage);
                         progressBar.setVisibility(View.INVISIBLE);
                         Toast.makeText(MainActivity.this, "Uploaded Successfully", Toast.LENGTH_SHORT).show();
-                        imageView.setImageResource(R.drawable.ic_baseline_add_a_photo_24);
+                        imageView.setImageResource(R.drawable.add2);
                     }
                 });
             }
