@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
@@ -28,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
 
     //widgets
 
-    private Button uploadBtn, showAllBtn;
+    private Button uploadBtn, showAllBtn, deconnecter;
     private ImageView imageView;
     private ProgressBar progressBar;
-
+    private FirebaseAuth mAuth;
     //vars
     private DatabaseReference root = FirebaseDatabase.getInstance().getReference("Image");
     private StorageReference reference = FirebaseStorage.getInstance().getReference();
@@ -44,11 +45,28 @@ public class MainActivity extends AppCompatActivity {
 
 
         uploadBtn = findViewById(R.id.upload_btn);
+        deconnecter = findViewById(R.id.deconnecter);
         showAllBtn = findViewById(R.id.showall_btn);
         progressBar = findViewById(R.id.progressBar);
         imageView = findViewById(R.id.imageView);
+        mAuth = FirebaseAuth.getInstance();
+       // if ( mAuth.getCurrentUser().getUid()!= null)
+            //Toast.makeText(this, ""+ mAuth.getCurrentUser().getEmail(), Toast.LENGTH_SHORT).show();  //permet d'afficher le nom de l'utilisateur qui se connecte / qui s'inscris
+
 
         progressBar.setVisibility(View.INVISIBLE);
+
+
+        deconnecter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mAuth.signOut();
+                Intent i = new Intent(MainActivity.this,WelcomeScreen.class);
+                startActivity(i);
+                finish();
+
+            }
+        });
 
         showAllBtn.setOnClickListener(new View.OnClickListener() {
             @Override

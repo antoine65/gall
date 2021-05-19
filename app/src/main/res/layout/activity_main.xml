@@ -7,6 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <Button
+
+        android:id="@+id/deconnecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Télécharger"
+        android:textSize="12sp"
+        app:backgroundTint="#07577a" />
+
     <ImageView
 
         android:layout_width="wrap_content"

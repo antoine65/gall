@@ -11,6 +11,7 @@
 
 
     <ImageView
+        android:id="@+id/imageview2"
         android:layout_width="250dp"
         android:layout_height="300dp"
         android:src="@drawable/login"
@@ -20,6 +21,7 @@
 
 
     <TextView
+        android:id="@+id/tvsinscrire"
         android:layout_width="wrap_content"
         android:gravity="center_horizontal"
         android:layout_height="wrap_content"
@@ -32,33 +34,39 @@
         />
 
 
-
     <EditText
+        android:id="@+id/email"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:text="Email"
-        android:textColor="#07577a"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:paddingLeft="20dp"
-        />
-
-
-    <EditText
-        android:layout_width="350dp"
-        android:layout_height="45dp"
-        android:text="Mot de passe"
-        android:textColor="#07577a"
-        android:textStyle="bold"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
         android:paddingLeft="20dp"
-        />
+        android:text="toto@gmail.com"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#07577a"
+        android:textStyle="bold" />
+
     <EditText
+        android:id="@+id/mdp"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:text="Confirmez le mot de passe"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:text="tototo"
+        android:textColor="#07577a"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/confirmdp"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:text="tototo"
         android:textColor="#07577a"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -69,11 +77,12 @@
 
 
     <Button
+        android:id="@+id/sinscrire2"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:text="Se connecter" />
+        android:text="S'inscrire" />
 
 
 </LinearLayout>

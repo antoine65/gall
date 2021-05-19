@@ -20,6 +20,7 @@
 
 
     <TextView
+
         android:layout_width="wrap_content"
         android:gravity="center_horizontal"
         android:layout_height="wrap_content"
@@ -34,9 +35,11 @@
 
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:text="Email"
+        android:text="toto@gmail.com"
+        android:hint="Email"
         android:textColor="#07577a"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
@@ -46,9 +49,11 @@
 
 
     <EditText
+        android:id="@+id/mdp"
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:text="Mot de passe"
+        android:text="tototo"
+        android:hint="Mot de passe"
         android:textColor="#07577a"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
@@ -64,6 +69,7 @@
 
 
     <Button
+        android:id="@+id/seconnecter"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginLeft="20dp"
