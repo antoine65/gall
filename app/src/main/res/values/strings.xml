@@ -1,16 +1,16 @@
 <resources>
     <string name="app_name">gall</string>
 
-//Headings
-<string name="heading_one">Sauvegarde tes photos ! </string>
-<string name="heading_two">Connecte toi / Inscris toi</string>
-<string name="heading_three">Stock tes photos sur un cloud</string>
-<string name="heading_fourth">Commençons !</string>
+    //Headings
+    <string name="heading_one">Sauvegarde tes photos ! </string>
+    <string name="heading_two">Connecte toi / Inscris toi</string>
+    <string name="heading_three">Stock tes photos sur un cloud</string>
+    <string name="heading_fourth">Commençons !</string>
 
-//Description
-<string name="desc_one">Enregistre tes photos sur cette application pour plus de confidentialité</string>
-<string name="desc_two">Crée toi un compte ou inscris toi pour bénéficier des fonctionnalités de notre application! Connexion et inscription Facebook / Google possible :)</string>
-<string name="desc_three">Tes photos ne prendrons pas de place sur ton smartphone et sont sauvegardé sur un cloud !</string>
-<string name="desc_fourth">Maitenant que nous nous sommes présentés, à vous de jouer !</string>
+    //Description
+    <string name="desc_one">Enregistre tes photos sur cette application pour plus de confidentialité</string>
+    <string name="desc_two">Crée toi un compte ou inscris toi pour bénéficier des fonctionnalités de notre application! Connexion et inscription Facebook / Google possible :)</string>
+    <string name="desc_three">Tes photos ne prendrons pas de place sur ton smartphone et sont sauvegardé sur un cloud !</string>
+    <string name="desc_fourth">Maitenant que nous nous sommes présentés, à vous de jouer !</string>
 
 </resources>

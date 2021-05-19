@@ -67,7 +67,7 @@ public class Mainscreen extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Intent i = new Intent(Mainscreen.this,MainActivity.class);
+                Intent i = new Intent(Mainscreen.this,WelcomeScreen.class);
                 startActivity(i);
                 finish();
 

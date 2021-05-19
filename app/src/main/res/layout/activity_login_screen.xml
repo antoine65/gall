@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout tools:context=".LoginScreen"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:src="@drawable/login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="75dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Se connecter"
+        android:textColor="#07577a"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:text="Email"
+        android:textColor="#07577a"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+/>
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:text="Mot de passe"
+        android:textColor="#07577a"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Mot de passe oublié ?"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp" />
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Se connecter" />
+
+
+</LinearLayout>
+
+
+
+
