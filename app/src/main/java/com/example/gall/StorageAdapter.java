@@ -16,6 +16,7 @@ import java.util.ArrayList;
 
 public class StorageAdapter extends RecyclerView.Adapter<StorageAdapter.MyViewHolder> {
 
+
     private ArrayList<Storage> mList;
     private Context context;
 
@@ -47,6 +48,7 @@ public class StorageAdapter extends RecyclerView.Adapter<StorageAdapter.MyViewHo
 
         ImageView imageView;
         public MyViewHolder(@NonNull View itemView) {
+
             super(itemView);
 
             imageView = itemView.findViewById(R.id.myimage);

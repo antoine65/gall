@@ -12,6 +12,7 @@ import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.PopupMenu;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -52,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
        // if ( mAuth.getCurrentUser().getUid()!= null)
             //Toast.makeText(this, ""+ mAuth.getCurrentUser().getEmail(), Toast.LENGTH_SHORT).show();  //permet d'afficher le nom de l'utilisateur qui se connecte / qui s'inscris
+
+
 
 
         progressBar.setVisibility(View.INVISIBLE);
@@ -96,6 +99,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
