@@ -1,17 +1,21 @@
 package com.example.gall;
 
 public class Storage {
-    public String getImage() {
+    private String image;
+    public Storage(){
+
+    }
+    public Storage(String image){ this.image = image; }
+
+    public String getImageUrl() {
+
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImageUrl(String image) {
         this.image = image;
     }
 
-    public Storage(String image) {
-        this.image = image;
-    }
 
-    private String image;
+
 }

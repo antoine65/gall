@@ -19,6 +19,8 @@ public class StorageAdapter extends RecyclerView.Adapter<StorageAdapter.MyViewHo
     private ArrayList<Storage> mList;
     private Context context;
 
+
+
     public StorageAdapter(Context context , ArrayList<Storage> mList){
 
         this.context = context;
@@ -34,14 +36,13 @@ public class StorageAdapter extends RecyclerView.Adapter<StorageAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        Glide.with(context).load(mList.get(position).getImage()).into(holder.imageView);
+        Glide.with(context).load(mList.get(position).getImageUrl()).into(holder.imageView);
     }
 
     @Override
     public int getItemCount() {
         return mList.size();
     }
-
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
         ImageView imageView;
@@ -51,4 +52,6 @@ public class StorageAdapter extends RecyclerView.Adapter<StorageAdapter.MyViewHo
             imageView = itemView.findViewById(R.id.myimage);
         }
     }
+
+
 }
