@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="250dp"
         android:layout_height="300dp"
-        android:src="@drawable/attach"
+        android:src="@drawable/pickturz"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="85dp"
         />
